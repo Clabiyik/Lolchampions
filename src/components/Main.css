@@ -1,0 +1,69 @@
+body{
+  background-color: #5F9EA0;
+}
+.champion-card {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin-bottom: 16px;
+  }
+  
+  .champion-card-image img {
+    width: 100%;
+    height: 250px;
+    border-radius: 8px;
+  }
+  
+  .champion-card-details {
+    margin-top: 16px;
+  }
+  
+  .champion-card-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .champion-card-role {
+    font-size: 14px;
+    color: #888888;
+    margin-bottom: 8px;
+  }
+  
+  .champion-card-difficulty {
+    display: flex;
+    align-items: center;
+  }
+  
+  .difficulty-icon-blue{
+    width: 16px;
+    height: 16px;
+    background-color: #4286f4;
+    border-radius: 50%;
+    margin-right: 4px;
+  }
+  .difficulty-icon-red{
+    width: 16px;
+    height: 16px;
+    background-color:  #800000;
+    border-radius: 50%;
+    margin-right: 4px;
+  }
+  .difficulty-icon-orange{
+    width: 16px;
+    height: 16px;
+    background-color: #FFA500;
+    border-radius: 50%;
+    margin-right: 4px;
+  }
+  
+  .difficulty-text {
+    margin-left: 20px;
+    font-size: 14px;
+    color: #888888;
+  }
+  

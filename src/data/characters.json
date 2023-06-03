@@ -1,0 +1,634 @@
+{
+    "characters": [
+        {
+            "id": 1,
+            "name": "Aatrox",
+            "region": "Demacia",
+            "img": "https://prod.api.assets.riotgames.com/public/v1/asset/lol/13.11.1/CHAMPION/266/ICON",
+            "difficulty": "Normal"
+        },
+        {
+            "id": 2,
+            "name": "Ahri",
+            "region": "Ionia",
+            "img": "https://prod.api.assets.riotgames.com/public/v1/asset/lol/13.10.1/CHAMPION_SKIN/103002/ICON",
+            "difficulty": "Normal"
+        },
+        {
+            "id": 3,
+            "name": "Akali",
+            "region": "Ionia",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt80ff58fe809777ff/5db05fa8adc8656c7d24e7d6/RiotX_ChampionList_akali.jpg?quality=90&width=250",
+            "difficulty": "Normal"
+        },
+        {
+            "id": 4,
+            "name": "Alistar",
+            "region": "Freljord",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt3b366925d2fd8fdb/5db05fa856458c6b3fc1750b/RiotX_ChampionList_alistar.jpg?quality=90&width=250",
+            "difficulty": "Normal"
+        },
+        {
+            "id": 5,
+            "name": "Amumu",
+            "region": "Shurima",
+            "img": "data:image/jpeg;base64,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",
+            "difficulty": "Easy"
+        },
+        {
+            "id": 6,
+            "name": "Anivia",
+            "region": "Freljord",
+            "img": "https://cdn.lolalytics.com/generated/champion280px/anivia.jpg",
+            "difficulty": "Normal"
+        },
+        {
+            "id": 7,
+            "name": "Annie",
+            "region": "Noxus",
+            "img": "https://prod.api.assets.riotgames.com/public/v1/asset/lol/13.10.1/CHAMPION/1/ICON",
+            "difficulty": "Easy"
+        },
+        {
+            "id": 8,
+            "name": "Aphelios",
+            "region": "Targon",
+            "img": "https://prod.api.assets.riotgames.com/public/v1/asset/lol/13.10.1/CHAMPION/523/ICON",
+            "difficulty": "Hard"
+        },
+        {
+            "id": 9,
+            "name": "Ashe",
+            "region": "Freljord",
+            "img": "https://i1.sndcdn.com/artworks-000175767428-23dvsu-t500x500.jpg",
+            "difficulty": "Easy"
+        },
+        {
+            "id": 10,
+            "name": "Aurelion Sol",
+            "region": "Targon",
+            "img": "https://lolkolik.com/admin/resimler/z8bA0KC7-aurelion-sol-wallpaper.0.0.jpg",
+            "difficulty": "Hard"
+        },
+        {
+            "id": 11,
+            "name": "Azir",
+            "region": "Shurima",
+            "img": "https://prod.api.assets.riotgames.com/public/v1/asset/lol/13.10.1/CHAMPION/268/ICON",
+            "difficulty": "Hard"
+        },
+        {
+            "id": 12,
+            "name": "Bard",
+            "region": "Targon",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltbbe3ce0c0ae1305b/5db05fb23a326d6df6c0e7b3/RiotX_ChampionList_bard.jpg?quality=90&width=250",
+            "difficulty": "Normal"
+        },
+        {
+            "id": 13,
+            "name": "Blitzcrank",
+            "region": "Piltover",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltd7ef7e56ce1fe17b/5db05fb26af83b6d7032c8f8/RiotX_ChampionList_blitzcrank.jpg?quality=90&width=250",
+            "difficulty": "Normal"
+        },
+        {
+            "id": 14,
+            "name": "Brand",
+            "region": "Freljord",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltc8ca2e9bba653dda/5db05fb2dc674266df3d5d30/RiotX_ChampionList_brand.jpg?quality=90&width=250",
+            "difficulty": "Normal"
+        },
+        {
+            "id": 15,
+            "name": "Braum",
+            "region": "Freljord",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltd140e30fa86d6ddd/5db05fb2242f426df132f95d/RiotX_ChampionList_braum.jpg?quality=90&width=250",
+            "difficulty": "Normal"
+        },
+        {
+            "id": 16,
+            "name": "Caitlyn",
+            "region": "Piltover",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt014f4b6fc9bacd10/61b1eb901d158d4007de9685/RiotX_ChampionList_caitlyn_v2.jpg?quality=90&width=250",
+            "difficulty": "Normal"
+        },
+        {
+            "id": 17,
+            "name": "Camille",
+            "region": "Piltover",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt413fcd7681fe0773/5db05fb089fb926b491ed805/RiotX_ChampionList_camille.jpg?quality=90&width=250",
+            "difficulty": "Normal"
+        },
+        {
+            "id": 18,
+            "name": "Cassiopeia",
+            "region": "Noxus",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blte189be8189da97ea/5db05fb1bd24496c390ae4de/RiotX_ChampionList_cassiopeia.jpg?quality=90&width=250",
+            "difficulty": "Normal"
+        },
+        {
+            "id": 19,
+            "name": "Cho'Gath",
+            "region": "Void",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt4dfb71de3ddc8166/5db05fb13a326d6df6c0e7ad/RiotX_ChampionList_chogath.jpg?quality=90&width=250",
+            "difficulty": "Normal"
+        },
+        {
+            "id": 20,
+            "name": "Corki",
+            "region": "Piltover",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltdd918c4d0a86347a/5db05fb1df78486c826dccee/RiotX_ChampionList_corki.jpg?quality=90&width=250",
+            "difficulty": "Normal"
+        },
+        {
+            "id": 21,
+            "name": "Darius",
+            "region": "Noxus",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt38b52be4a2cb1004/5db05fb19481396d6bdd01ac/RiotX_ChampionList_darius.jpg?quality=90&width=250",
+            "difficulty": "Normal"
+        },
+        {
+            "id": 22,
+            "name": "Diana",
+            "region": "Targon",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt56570083d2a5e20e/5db05fbc823d426762825fdf/RiotX_ChampionList_diana.jpg?quality=90&width=250",
+            "difficulty": "Normal"
+        },
+        {
+            "id": 23,
+            "name": "Dr. Mundo",
+            "region": "Noxus",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blte88a3d7e9e408904/61b1ea136a78b87751002a68/RiotX_ChampionList_drmundo_v2.jpg?quality=90&width=250",
+            "difficulty": "Normal"
+        },
+        {
+            "id": 24,
+            "name": "Draven",
+            "region": "Noxus",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltc0be728e4cbb8f2a/5db05fbc89fb926b491ed80b/RiotX_ChampionList_draven.jpg?quality=90&width=250",
+            "difficulty": "Normal"
+        },
+        {
+            "id": 25,
+            "name": "Ekko",
+            "region": "Piltover",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltf22ba7e6328e4376/5db05fbd242f426df132f963/RiotX_ChampionList_ekko.jpg?quality=90&width=250",
+            "difficulty": "Normal"
+        },
+        {
+            "id": 26,
+            "name": "Elise",
+            "region": "Shadow Isles",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltfe21ff2ddb84d5d1/5db05fbd0b39e86c2f83dc05/RiotX_ChampionList_elise.jpg?quality=90&width=250",
+            "difficulty": "Normal"
+        },
+        {
+            "id": 27,
+            "name": "Evelynn",
+            "region": "Shadow Isles",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blte24b4c6ec1beebb9/5db05fbddf78486c826dccf4/RiotX_ChampionList_evelynn.jpg?quality=90&width=250",
+            "difficulty": "Normal"
+        },
+        {
+            "id": 28,
+            "name": "Ezreal",
+            "region": "Piltover",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt60f687c95425f73f/5db05fbd2dc72966da746704/RiotX_ChampionList_ezreal.jpg?quality=90&width=250",
+            "difficulty": "Easy"
+        },
+        {
+            "id": 29,
+            "name": "Fiddlesticks",
+            "region": "Shadow Isles",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt1151ac1242311053/61b1ea65aeb5451282be2468/RiotX_ChampionList_fiddlesticks_v2.jpg?quality=90&width=250",
+            "difficulty": "Normal"
+        },
+        {
+            "id": 30,
+            "name": "Fiora",
+            "region": "Demacia",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt935dd149b2617ac8/5db05fbcdc674266df3d5d36/RiotX_ChampionList_fiora.jpg?quality=90&width=250",
+            "difficulty": "Normal"
+        },
+        {
+            "id": 31,
+            "name": "Fizz",
+            "region": "Bilgewater",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt6000fa69e03c25c0/5db05fbc56458c6b3fc17513/RiotX_ChampionList_fizz.jpg?quality=90&width=250",
+            "difficulty": "Normal"
+        },
+        {
+            "id": 32,
+            "name": "Galio",
+            "region": "Demacia",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt5890d1ab5c8be01f/5db05fc6823d426762825fe5/RiotX_ChampionList_galio.jpg?quality=90&width=250",
+            "difficulty": "Normal"
+        },
+        {
+            "id": 33,
+            "name": "Gangplank",
+            "region": "Bilgewater",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltfdff3781ccfb2a5c/5db05fc689fb926b491ed811/RiotX_ChampionList_gangplank.jpg?quality=90&width=250",
+            "difficulty": "Normal"
+        },
+        {
+            "id": 34,
+            "name": "Garen",
+            "region": "Demacia",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blte41a162aed9339b7/5db05fc60b39e86c2f83dc0d/RiotX_ChampionList_garen.jpg?quality=90&width=250",
+            "difficulty": "Easy"
+        },
+        {
+            "id": 35,
+            "name": "Gnar",
+            "region": "Freljord",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blta80f79dd96ee5d30/5db05fc6df78486c826dcd00/RiotX_ChampionList_gnar.jpg?quality=90&width=250",
+            "difficulty": "Normal"
+        },
+        {
+            "id": 36,
+            "name": "Gragas",
+            "region": "Freljord",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt795841adba722f85/5db05fc43a326d6df6c0e7b9/RiotX_ChampionList_gragas.jpg?quality=90&width=250",
+            "difficulty": "Normal"
+        },
+        {
+            "id": 37,
+            "name": "Graves",
+            "region": "Noxus",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt2e7cd286d7b6182e/5e9a59c245a2a97194a1d4c7/RiotX_ChampionList_graves-cigar.jpg?quality=90&width=250",
+            "difficulty": "Normal"
+        },
+        {
+            "id": 38,
+            "name": "Hecarim",
+            "region": "Shadow Isles",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blteb9ce5304ec48e19/5db05fc5df78486c826dccfa/RiotX_ChampionList_hecarim.jpg?quality=90&width=250",
+            "difficulty": "Normal"
+        },
+        {
+            "id": 39,
+            "name": "Heimerdinger",
+            "region": "Piltover",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltd30d85446d154070/5db05fc57d28b76cfe4397ef/RiotX_ChampionList_heimerdinger.jpg?quality=90&width=250",
+            "difficulty": "Normal"
+        },
+        {
+            "id": 40,
+            "name": "Illaoi",
+            "region": "Bilgewater",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltc44e90a5547120a2/5db05fc5347d1c6baa57be2b/RiotX_ChampionList_illaoi.jpg?quality=90&width=250",
+            "difficulty": "Normal"
+        },
+        {
+            "id": 41,
+            "name": "Irelia",
+            "region": "Ionia",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltf5f2b8de93870aef/5db05fcea6470d6ab91ce59a/RiotX_ChampionList_irelia.jpg?quality=90&width=250",
+            "difficulty": "Normal"
+        },
+        {
+            "id": 42,
+            "name": "Ivern",
+            "region": "Ionia",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt5fff73e1df1873de/5db05fce7d28b76cfe4397f5/RiotX_ChampionList_ivern.jpg?quality=90&width=250",
+            "difficulty": "Hard"
+        },
+        {
+            "id": 43,
+            "name": "Janna",
+            "region": "Zaun",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt02bf5329f8abe45d/5db05fcedf78486c826dcd06/RiotX_ChampionList_janna.jpg?quality=90&width=250",
+            "difficulty": "Easy"
+        },
+        {
+            "id": 44,
+            "name": "Jarvan IV",
+            "region": "Demacia",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt5898626d7016d222/5db05fcfdc674266df3d5d3c/RiotX_ChampionList_jarvaniv.jpg?quality=90&width=250",
+            "difficulty": "Normal"
+        },
+        {
+            "id": 45,
+            "name": "Jax",
+            "region": "Ionia",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt6b301613598c3f17/5db05fcf89fb926b491ed81d/RiotX_ChampionList_jax.jpg?quality=90&width=250",
+            "difficulty": "Normal"
+        },
+        {
+            "id": 46,
+            "name": "Jayce",
+            "region": "Piltover",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt51557edc36ad88a1/5db05fcf0b39e86c2f83dc13/RiotX_ChampionList_jayce.jpg?quality=90&width=250",
+            "difficulty": "Normal"
+        },
+        {
+            "id": 47,
+            "name": "Jhin",
+            "region": "Ionia",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltbf6c70d9272a5a2a/5db05fcfe9d7526ab429e532/RiotX_ChampionList_jhin.jpg?quality=90&width=250",
+            "difficulty": "Hard"
+        },
+        {
+            "id": 48,
+            "name": "Jinx",
+            "region": "Piltover",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blta2cba784d9fad4b8/5db05fce89fb926b491ed817/RiotX_ChampionList_jinx.jpg?quality=90&width=250",
+            "difficulty": "Normal"
+        },
+        {
+            "id": 49,
+            "name": "Kai'Sa",
+            "region": "Void",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blte38dc660dfe79204/5db05fce2dc72966da74670c/RiotX_ChampionList_kaisa.jpg?quality=90&width=250",
+            "difficulty": "Normal"
+        },
+        {
+            "id": 50,
+            "name": "Kalista",
+            "region": "Shadow Isles",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltb7f0196921c74e8c/5db05fcee9d7526ab429e52c/RiotX_ChampionList_kalista.jpg?quality=90&width=250",
+            "difficulty": "Normal"
+        },
+        {
+            "id": 51,
+            "name": "Karma",
+            "region": "Ionia",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt39748c7b67252d6f/5db05fd70b39e86c2f83dc19/RiotX_ChampionList_karma.jpg?quality=90&width=250",
+            "difficulty": "Easy"
+        },
+        {
+            "id": 52,
+            "name": "Karthus",
+            "region": "Shadow Isles",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt69b8fad9d1e78514/5db05fd7df78486c826dcd0c/RiotX_ChampionList_karthus.jpg?quality=90&width=250",
+            "difficulty": "Normal"
+        },
+        {
+            "id": 53,
+            "name": "Kassadin",
+            "region": "Void",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt20773f2f67e00a74/636ead3d105477785e890c1b/RiotX_ChampionList_kassadin.jpg?quality=90&width=250",
+            "difficulty": "Normal"
+        },
+        {
+            "id": 54,
+            "name": "Katarina",
+            "region": "Noxus",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltb73e3edb5937676a/5db05fd7823d426762825feb/RiotX_ChampionList_katarina.jpg?quality=90&width=250",
+            "difficulty": "Normal"
+        },
+        {
+            "id": 55,
+            "name": "Kayle",
+            "region": "Demacia",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt2c7675893b5c76bc/61b1ed442d06ff39b6c6336b/RiotX_ChampionList_kayle_v4.jpg?quality=90&width=250",
+            "difficulty": "Normal"
+        },
+        {
+            "id": 56,
+            "name": "Kayn",
+            "region": "Shadow Isles",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt64edf2d3729b57c1/5db05fd656458c6b3fc17519/RiotX_ChampionList_kayn.jpg?quality=90&width=250",
+            "difficulty": "Normal"
+        },
+        {
+            "id": 57,
+            "name": "Kennen",
+            "region": "Ionia",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltc87932e656d1076e/5db05fd6adc8656c7d24e7dc/RiotX_ChampionList_kennen.jpg?quality=90&width=250",
+            "difficulty": "Normal"
+        },
+        {
+            "id": 58,
+            "name": "Kha'Zix",
+            "region": "Void",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt363d7d62846ffc87/5db05fd6e9effa6ba5295f9f/RiotX_ChampionList_khazix.jpg?quality=90&width=250",
+            "difficulty": "Easy"
+        },
+        {
+            "id": 59,
+            "name": "Kindred",
+            "region": "Shadow Isles",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltc0f0007660b7a07b/5db05fd689fb926b491ed823/RiotX_ChampionList_kindred.jpg?quality=90&width=250",
+            "difficulty": "Hard"
+        },
+        {
+            "id": 60,
+            "name": "Kled",
+            "region": "Noxus",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt1670a0dd8fd5edca/5db05fd66e8b0c6d038c5ca8/RiotX_ChampionList_kled.jpg?quality=90&width=250",
+            "difficulty": "Normal"
+        },
+        {
+            "id": 61,
+            "name": "Kog'Maw",
+            "region": "Void",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltaf483c8f812369fa/5db05fde823d426762825ff1/RiotX_ChampionList_kogmaw.jpg?quality=90&width=250",
+            "difficulty": "Easy"
+        },
+        {
+            "id": 62,
+            "name": "LeBlanc",
+            "region": "Noxus",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt4aaf881bb90b509f/5db05fde6e8b0c6d038c5cae/RiotX_ChampionList_leblanc.jpg?quality=90&width=250",
+            "difficulty": "Easy"
+        },
+        {
+            "id": 63,
+            "name": "Lee Sin",
+            "region": "Ionia",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt075d278529811445/5db05fde6af83b6d7032c8fe/RiotX_ChampionList_leesin.jpg?quality=90&width=250",
+            "difficulty": "Easy"
+        },
+        {
+            "id": 64,
+            "name": "Leona",
+            "region": "Targon",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt8d46ada03ea1da8c/5db05fdf347d1c6baa57be31/RiotX_ChampionList_leona.jpg?quality=90&width=250",
+            "difficulty": "Easy"
+        },
+        {
+            "id": 65,
+            "name": "Lillia",
+            "region": "Ionia",
+            "img": "data:image/jpeg;base64,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",
+            "difficulty": "Hard"
+        },
+        {
+            "id": 66,
+            "name": "Lissandra",
+            "region": "Freljord",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt08f869e897566c5b/5db05fdf7d28b76cfe439801/RiotX_ChampionList_lissandra.jpg?quality=90&width=250",
+            "difficulty": "Normal"
+        },
+        {
+            "id": 67,
+            "name": "Lucian",
+            "region": "Demacia",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt3db0d62352b0b4f1/5db05fdf6e8b0c6d038c5cb4/RiotX_ChampionList_lucian.jpg?quality=90&width=250",
+            "difficulty": "Normal"
+        },
+        {
+            "id": 68,
+            "name": "Lulu",
+            "region": "Bandle City",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt424f04814efb3aca/5db05fdfe9d7526ab429e538/RiotX_ChampionList_lulu.jpg?quality=90&width=250",
+            "difficulty": "Normal"
+        },
+        {
+            "id": 69,
+            "name": "Lux",
+            "region": "Demacia",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltb94b4161d8022c45/5db05fdfe9d7526ab429e53c/RiotX_ChampionList_lux.jpg?quality=90&width=250",
+            "difficulty": "Easy"
+        },
+        {
+            "id": 70,
+            "name": "Malphite",
+            "region": "Targon",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt4d3b4a7e4c44ced7/5db05fdeadc8656c7d24e7e2/RiotX_ChampionList_malaphite.jpg?quality=90&width=250",
+            "difficulty": "Easy"
+        },
+        {
+            "id": 71,
+            "name": "Malzahar",
+            "region": "Void",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltd58a3a2bf5035834/5db05fde0b39e86c2f83dc1f/RiotX_ChampionList_malzahar.jpg?quality=90&width=250",
+            "difficulty": "Normal"
+        },
+        {
+            "id": 72,
+            "name": "Maokai",
+            "region": "Shadow Isles",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt757d0e8855d51e03/5db05fe72140ec675d68f4a1/RiotX_ChampionList_maokai.jpg?quality=90&width=250",
+            "difficulty": "Normal"
+        },
+        {
+            "id": 73,
+            "name": "Master Yi",
+            "region": "Ionia",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt46e861d7e6c0ab0c/5db05fe8df78486c826dcd12/RiotX_ChampionList_masteryi.jpg?quality=90&width=250",
+            "difficulty": "Easy"
+        },
+        {
+            "id": 74,
+            "name": "Miss Fortune",
+            "region": "Bilgewater",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltf36fa7fd7ecb59fb/5db05fe89481396d6bdd01b8/RiotX_ChampionList_missfortune.jpg?quality=90&width=250",
+            "difficulty": "Easy"
+        },
+        {
+            "id": 75,
+            "name": "Mordekaiser",
+            "region": "Noxus",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt7683195e1c4f6706/621ed30fba043c4a2c4a9f7a/RiotX_ChampionList_mordekaiser_v2.jpg?quality=90&width=250",
+            "difficulty": "Normal"
+        },
+        {
+            "id": 76,
+            "name": "Morgana",
+            "region": "Demacia",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltc81eece55f126d2d/5db05fe86af83b6d7032c904/RiotX_ChampionList_morgana.jpg?quality=90&width=250",
+            "difficulty": "Easy"
+        },
+        {
+            "id": 77,
+            "name": "Nami",
+            "region": "Targon",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt13bec39f49dc35ee/5db05fe956458c6b3fc1751f/RiotX_ChampionList_nami.jpg?quality=90&width=250",
+            "difficulty": "Easy"
+        },
+        {
+            "id": 78,
+            "name": "Nasus",
+            "region": "Shurima",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt20a4b154b1756b56/5db05fe7a6470d6ab91ce5a0/RiotX_ChampionList_nasus.jpg?quality=90&width=250",
+            "difficulty": "Easy"
+        },
+        {
+            "id": 79,
+            "name": "Nautilus",
+            "region": "Bilgewater",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltf945a57aa16cea57/5db05fe7347d1c6baa57be37/RiotX_ChampionList_nautilus.jpg?quality=90&width=250",
+            "difficulty": "Easy"
+        },
+        {
+            "id": 80,
+            "name": "Neeko",
+            "region": "Ionia",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blta62eaac6ad26a4f5/5db05fe7adc8656c7d24e7ea/RiotX_ChampionList_neeko.jpg?quality=90&width=250",
+            "difficulty": "Normal"
+        },
+        {
+            "id": 81,
+            "name": "Nidalee",
+            "region": "Ionia",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt5a2da06d413f7c15/5db05ff1df78486c826dcd18/RiotX_ChampionList_nidalee.jpg?quality=90&width=250",
+            "difficulty": "Easy"
+        },
+        {
+            "id": 82,
+            "name": "Nocturne",
+            "region": "Shadow Isles",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltfc73e3c7dda28d31/5db05ff2adc8656c7d24e7f0/RiotX_ChampionList_nocturne.jpg?quality=90&width=250",
+            "difficulty": "Normal"
+        },
+        {
+            "id": 83,
+            "name": "Nunu & Willump",
+            "region": "Freljord",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltf613746635c6d3c8/5db05ff256458c6b3fc17527/RiotX_ChampionList_nunu.jpg?quality=90&width=250",
+            "difficulty": "Normal"
+        },
+        {
+            "id": 84,
+            "name": "Olaf",
+            "region": "Freljord",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blte922bda45062964b/5db05ff0a6470d6ab91ce5a6/RiotX_ChampionList_olaf.jpg?quality=90&width=250",
+            "difficulty": "Easy"
+        },
+        {
+            "id": 85,
+            "name": "Orianna",
+            "region": "Piltover",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt3318fc0e8103706d/5db05ff02140ec675d68f4a7/RiotX_ChampionList_orianna.jpg?quality=90&width=250",
+            "difficulty": "Normal"
+        },
+        {
+            "id": 86,
+            "name": "Ornn",
+            "region": "Freljord",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt639bacdfe8b1fd95/5db05ff1bd24496c390ae4f0/RiotX_ChampionList_ornn.jpg?quality=90&width=250",
+            "difficulty": "Hard"
+        },
+        {
+            "id": 87,
+            "name": "Pantheon",
+            "region": "Targon",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt3f84c538bd36ef02/5db05ff17d28b76cfe43980d/RiotX_ChampionList_pantheon.jpg?quality=90&width=250",
+            "difficulty": "Normal"
+        },
+        {
+            "id": 88,
+            "name": "Poppy",
+            "region": "Demacia",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt0df0f7bcaf851737/5db05ff1242f426df132f973/RiotX_ChampionList_poppy.jpg?quality=90&width=250",
+            "difficulty": "Normal"
+        },
+        {
+            "id": 89,
+            "name": "Pyke",
+            "region": "Bilgewater",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt98269cb73e9fce70/5db05ff1347d1c6baa57be3d/RiotX_ChampionList_pyke.jpg?quality=90&width=250",
+            "difficulty": "Normal"
+        },
+        {
+            "id": 90,
+            "name": "Qiyana",
+            "region": "Ionia",
+            "img": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blta6148d8dca105d6b/5db05ff1e9effa6ba5295fa7/RiotX_ChampionList_qiyana.jpg?quality=90&width=250",
+            "difficulty": "Hard"
+        }
+    ]
+}
